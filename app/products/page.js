@@ -167,7 +167,7 @@ export const PRODUCTS = [
         id: "p3",
         title: "Watch 3",
         img: "https://ae01.alicdn.com/kf/HTB1zVDFaN2rK1RkSnhJq6ykdpXaE/Cool-3D-Curved-Glass-Men-Brand-Fashion-Business-Watches-Self-Winding-Mechanical-Calendar-Watch-Waterproof-Real.jpg_640x640.jpg",
-        totalSales: 36000,
+        totalSales: 8475,
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor lorem non est congue blandit. Praesent non lorem sodales, suscipit est sed, hendrerit dolor.",
         specifications:
@@ -239,7 +239,7 @@ export const PRODUCTS = [
         ],
     },
 ];
-const Page = () => {
+function Page() {
     return (
         <>
             <div className="flex flex-col items-center gap-2 mt-10">
@@ -276,5 +276,5 @@ const Page = () => {
             </div>
         </>
     );
-};
+}
 export default Page;

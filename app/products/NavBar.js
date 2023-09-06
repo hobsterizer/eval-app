@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Card, Button, Title } from "@tremor/react";
 const NavBar = () => {

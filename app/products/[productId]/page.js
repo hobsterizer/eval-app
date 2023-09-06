@@ -61,7 +61,7 @@ function ProductDetails({ params }) {
                         src={product.img}
                         alt={product.title}
                     />
-                    <div className="flex flex-col w-96">
+                    <div className="flex flex-col w-full">
                         <Title className="mr-5 mt-3 self-end">
                             {product.title}
                         </Title>
