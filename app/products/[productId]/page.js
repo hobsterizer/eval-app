@@ -33,7 +33,6 @@ function ProductDetails({ params }) {
                         size="md"
                         onClick={() => {
                             router.push("/products");
-                            localStorage.setItem("loginstatus", false);
                         }}
                     >
                         Back

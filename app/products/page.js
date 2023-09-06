@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Card, Button, Title, Text, Metric, BadgeDelta } from "@tremor/react";
+import { Card, Title, Text, Metric, BadgeDelta } from "@tremor/react";
 export const PRODUCTS = [
     {
         id: "p1",
@@ -240,6 +240,7 @@ export const PRODUCTS = [
     },
 ];
 function Page() {
+
     return (
         <>
             <div className="flex flex-col items-center gap-2 mt-10">
