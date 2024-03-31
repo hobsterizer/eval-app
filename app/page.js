@@ -1,5 +1,5 @@
 import Login from "./Login";
-import  PRODUCTS  from "./products/page";
+import  PRODUCTS  from "./products";
 export default function Home() {
     return (
         <>
