@@ -121,7 +121,7 @@ function Login() {
                         className="w-1/4 self-center mt-5"
                         color="indigo"
                         size="lg"
-                        disabled={!formIsValid}
+                        
                         type="submit"
                     >
                         Login
