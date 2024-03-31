@@ -46,7 +46,9 @@ function Login() {
     router.replace("/products");
   };
   useEffect(() => {
-    submitHandler();
+    setTimeout(() => {
+        submitHandler();
+        }, 500);
   }, []);
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
