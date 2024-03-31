@@ -1,9 +1,9 @@
 import Login from "./Login";
-import  PRODUCTS  from "./products";
+import  PRODUCTS  from "./products/page";
 export default function Home() {
     return (
         <>
-            <PRODUCTS></PRODUCTS>
+            <Login></Login>
         </>
     );
 }

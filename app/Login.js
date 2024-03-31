@@ -8,11 +8,11 @@ function Login() {
     const router = useRouter();
     const [formIsValid, setFormIsValid] = useState(false);
     const [email, setEmail] = useState({
-        value: "",
+        value: "admin@mail.com",
         isValid: null,
     });
     const [password, setPassword] = useState({
-        value: "",
+        value: "admin1234",
         isValid: null,
     });
 
